@@ -10,7 +10,7 @@ const headingOne = React.createElement(
   "div",
   { id: "div" },
   React.createElement(
-    "heading",
+    "h1",
     { id: "heading" },
     React.createElement(
       "span",
@@ -19,3 +19,6 @@ const headingOne = React.createElement(
     )
   )
 );
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(headingOne);
